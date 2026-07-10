@@ -1,0 +1,23 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# === PyCharm / IntelliJ ===
+.idea/
+*.iml
+
+# === Datos / Archivos Grandes ===
+# Ignora el archivo CSV de 1M de registros para no saturar el repositorio
+data/datos_1M.csv
+
+# === Sistema Operativo ===
+.DS_Store
+Thumbs.db
